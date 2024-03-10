@@ -2412,7 +2412,7 @@ single product area
     font-weight: normal;
     max-width: 140px;
 }
-.flag-dropdown dd ul li a span:first-child,
+/* .flag-dropdown dd ul li a span:first-child,
 .flag-dropdown dt a span span:first-child {
     background-image: url("../Frame-1-1.png");
     background-repeat: no-repeat;
@@ -2422,7 +2422,7 @@ single product area
     margin: 5px;
     vertical-align: top;
     background-size: cover;
-}
+} */
 .flag-dropdown dt a span {
     cursor: pointer;
     display: block;
