@@ -25,7 +25,15 @@
     display: flex;
     flex-flow: row wrap;
 }
-
+.payment-container-f li {
+    border: 1px solid #ddd;
+    margin: 3px;
+    border-radius: 5px;
+}
+.payment-container-f li img{
+    width: 40px;
+    height: 25px;
+}
 .payment-container-f-icon {
     min-width: 60px;
     height: 40px;
@@ -45,13 +53,6 @@
     .copyright-container {
         display: flex;
         flex-direction: column-reverse;
-    }
-
-    .payment-container-f {
-        display: flex;
-        flex-flow: row wrap;
-        gap: 8px;
-        margin-bottom: 20px;
     }
 
     .copy-right {

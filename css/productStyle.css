@@ -213,7 +213,9 @@ body {
 .product-card-3 {
     display: none;
 }
-
+#color_part{
+    align-items: center;
+}
 .color-actives {
     cursor: pointer;
     height: 1.7rem !important;
@@ -397,7 +399,12 @@ body {
     background-color: #515151;
     color: #fff;
 }
-
+.rel-prod-section .prev-item {
+    top: 39%;
+}
+.rel-prod-section .next-item {
+    top: 39%;
+}
 .shopping-in-stock {
     color: #257f2e;
     font-size: 14px;
