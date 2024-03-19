@@ -39,7 +39,7 @@
     }
 
     #dynamicslider_3_body .custom-slick-button-next {
-        right: -7px;
+        right: -11px;
     }
 }
 
@@ -101,7 +101,7 @@
     }
 
     #dynamicslider_3_body .custom-slick-button-next {
-        right: -1px;
+        right: 3px;
     }
 }
 
@@ -142,7 +142,7 @@
         left: 4px;
     }
     #dynamicslider_3_body .custom-slick-button-next {
-        right: 0px;
+        right: 5px;
     }
     #enorsia_onYou h4 {
         margin-top: 10px !important;
@@ -222,7 +222,7 @@
     }
 
     #dynamicslider_3_body .custom-slick-button-next {
-        right: 0px;
+        right: 6px;
     }
 
     #dynamicslider_3_body .custom-slick-button-prev {
@@ -349,6 +349,13 @@
         height: 80% !important;
         width: 100% !important;
     }
+    #multiple_slider h4 {
+        padding: 0px 0px 15px 0px;
+    }
+    .add_photo_div {
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
 }
 
 /*******************************************************************************************************************************************************************************************/
@@ -398,6 +405,7 @@
 
     #multiple_slider h4 {
         font-size: 23px;
+        margin-top: 30px;
     }
 
     .collection-img-section p u {
@@ -415,9 +423,18 @@
         padding: 0px 20px;
         display: inline-block;
     }
-
+    .dynamicslider-3 {
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    .dynamicslider-3 .category-img {
+        width: 96.5% !important;
+    }
     #dynamicslider_3_body .custom-slick-button-next {
-        right: 15px;
+        right: 11px;
+    }
+    #dynamicslider_3_body .custom-slick-button-prev {
+        left: 3px;
     }
     #recent_dynamicslide_part .custom-slick-button-prev {
         left: -29px;
@@ -639,6 +656,10 @@
         margin-top: 5px;
         margin-bottom: 0px;
     }
+    .dynamicslider-3 {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
     #dynamicslider_3_body .custom-slick-button-prev {
         left: 7px;
     }
@@ -764,10 +785,19 @@
     #size_phn_view {
         margin-top: 10px !important;
     }
+    #choose_phn_view {
+        margin-top: 20px !important;
+    }
+    .details_color{
+        font-size: 14px !important;
+    }
     #details_youtube_icon {
         color: red;
         font-size: 22px;
         margin-left: 10px;
+    }
+    .single-product-details h6 {
+        font-size: 14px !important;
     }
 }
 
