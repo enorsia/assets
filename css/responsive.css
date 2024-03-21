@@ -471,7 +471,9 @@
         width: 100%;
         display: block;
     }
-
+    .extra-mergin {
+        margin-top: 173px !important;
+    }
     .nav-submenu-img .nav-img p a {
         height: auto;
     }
@@ -492,14 +494,15 @@
 
     .nav-menu > li > span {
         padding: 10px 10px !important;
-        font-size: 14px !important;
+        font-size: 13px !important;
         color: #000 !important;
     }
 
     .nav-menu > li > a {
-        padding: 10px 5px !important;
-        font-size: 15px !important;
+        padding: 5px 10px !important;
+        font-size: 13px !important;
         color: #000 !important;
+        font-weight: 600 !important;
     }
 
     #nav-slider {
@@ -507,6 +510,7 @@
         left: 0%;
         flex-wrap: wrap;
         gap: 0 !important;
+        padding: 0px !important;
     }
 
     #discount_banner {
@@ -525,6 +529,9 @@
     }
     #nav-slider li a:last-child {
         padding-right: 0px;
+        font-size: 13px !important;
+        color: #000 !important;
+        font-weight: 600 !important;
     }
     .slick-slide {
         margin: 0px 5px;
@@ -828,9 +835,9 @@
 }
 
 /*******************************************************************************************************************************************************************/
-@media (max-width: 365px) {
+@media (max-width: 359px) {
     .extra-mergin {
-        margin-top: 222px !important;
+        margin-top: 197px !important;
     }
 }
 
