@@ -2648,3 +2648,222 @@ dl.flag-dropdown dt span:nth-child(3) {
         font-size: 16px !important;
     }
 }
+
+
+/********* Select css code **********/
+.select_body{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 10px 0px 20px 0px;
+}
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: none !important;
+    margin-bottom: 15px;
+}
+
+.form-control:focus {
+    border: 1px solid #34495e;
+}
+
+.select2.select2-container {
+  width: 100% !important;
+}
+
+.select2.select2-container .select2-selection {
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    height: 40px;
+    margin-bottom: -1px;
+    outline: none !important;
+    transition: all .15s ease-in-out;
+    margin-right: -1px;
+}
+
+.select2.select2-container .select2-selection .select2-selection__rendered {
+  color: #333;
+  line-height: 38px;
+  padding-right: 33px;
+}
+
+.select2.select2-container .select2-selection .select2-selection__arrow {
+  background: transparent;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+  height: 38px;
+  width: 33px;
+}
+
+.select2.select2-container.select2-container--open .select2-selection.select2-selection--single {
+  background: #f8f8f8;
+}
+
+.select2.select2-container.select2-container--open .select2-selection.select2-selection--single .select2-selection__arrow {
+  -webkit-border-radius: 0 3px 0 0;
+  -moz-border-radius: 0 3px 0 0;
+  border-radius: 0 3px 0 0;
+}
+
+.select2.select2-container.select2-container--open .select2-selection.select2-selection--multiple {
+  border: 1px solid #34495e;
+}
+
+.select2.select2-container .select2-selection--multiple {
+  height: auto;
+  min-height: 34px;
+}
+
+.select2.select2-container .select2-selection--multiple .select2-search--inline .select2-search__field {
+  margin-top: 0;
+  height: 32px;
+}
+
+.select2.select2-container .select2-selection--multiple .select2-selection__rendered {
+  display: block;
+  padding: 0 4px;
+  line-height: 29px;
+}
+
+.select2.select2-container .select2-selection--multiple .select2-selection__choice {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin: 4px 4px 0 0;
+  padding: 0 6px 0 22px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  position: relative;
+}
+
+.select2.select2-container .select2-selection--multiple .select2-selection__choice .select2-selection__choice__remove {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  margin: 0;
+  text-align: center;
+  color: #e74c3c;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.select2-container .select2-dropdown {
+  background: transparent;
+  border: none;
+  margin-top: 0px;
+}
+
+.select2-container .select2-dropdown .select2-search {
+  padding: 0;
+}
+
+.select2-container .select2-dropdown .select2-search input {
+  outline: none !important;
+  border: 1px solid #ddd !important;
+  border-bottom: none !important;
+  padding: 4px 6px !important;
+}
+
+.select2-container .select2-dropdown .select2-results {
+  padding: 0;
+}
+
+.select2-container .select2-dropdown .select2-results ul {
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria-selected] {
+  background-color: #3498db;
+}
+.select2-results__option {
+    font-size: 14px !important;
+}
+.price_body{
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    height: 40px;
+    margin-bottom: -1px;
+    outline: none !important;
+    transition: all .15s ease-in-out;
+    margin-right: -1px;
+    cursor: pointer;
+    position: relative;
+}
+.price_body .price_id{
+    color: #333;
+    line-height: 38px;
+    display: block;
+    padding-left: 8px;
+    padding-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.price_body .price_div{
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160%;
+    right: -1px;
+    padding: 10px 10px;
+    cursor: auto;
+}
+.price_top{
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.price_top p{
+    font-size: 15px;
+    text-align: center;
+}
+.price_top i{
+    position: absolute;
+    top: -7px;
+    right: 0px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.price_top i:hover{
+    color: red;
+}
+.price_div .price_input{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+}
+.price_div .price_input input{
+    border-radius: 0px !important;
+}
+.price_div .price_input label{
+    font-size: 15px;
+    font-weight: 500;
+}
+.price_filter{
+    width: 100%;
+}
+.price_filter button{
+    width: 100%;
+    display: block;
+    border: 1px solid #ddd;
+    background: #000000;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 0px;
+    transition: .3s;
+}
+.price_filter button:hover{
+    background: #333333;
+}
+/********* End Select css code **********/
