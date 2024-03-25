@@ -894,7 +894,7 @@ height: 68vh;
         display: none;
     }
 
-    .boden_same_text_part button {
+    .boden_same_text_part a {
         font-size: 14px;
         padding: 18px 30px;
         margin: 10px 7px 0px 7px;

@@ -2538,6 +2538,7 @@ dl.flag-dropdown dt span:nth-child(3) {
     padding: 16px 30px;
     margin: 10px 10px 0px 10px;
     display: inline-block;
+    transition: .3s;
 }
 .boden_same_text_part h6{
     font-size: 18px;
@@ -2559,7 +2560,7 @@ dl.flag-dropdown dt span:nth-child(3) {
     opacity: 1;
     transition: transform 1s ease;
 }
-.boden_same_text_part button:hover{
+.boden_same_text_part a:hover{
     background: #D3D3D3;
 }
 .boden_same_img_part{
