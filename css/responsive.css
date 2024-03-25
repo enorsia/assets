@@ -888,6 +888,10 @@
         font-size: 14px !important;
     }
     /***** Boden Part **********/
+    .small_hide{
+        display: none;
+    }
+
     .boden_same_text_part button {
         font-size: 14px;
         padding: 18px 30px;
@@ -899,6 +903,8 @@
     .gallery_items {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 7px;
+        max-height: 600px;
+    overflow: hidden;
     }
     .gallery_title h2 {
         font-size: 20px;

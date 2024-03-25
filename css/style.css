@@ -2819,20 +2819,7 @@ display: flex;
     font-size: 13px;
     color: #353535;
 }
-.gallerY_cart_btn a{
-    font-size: 12px;
-    color: #fff;
-    background: #000;
-    border: none;
-    text-transform: uppercase;
-    padding: 8px 15px;
-    margin-top: 15px;
-    transition: .3s;
-    display: inline-block;
-}
-.gallerY_cart_btn a:hover{
-    background: #505050;
-}
+
 .gallery_view_part{
     margin: 20px 0px 20px 0px;
 }
