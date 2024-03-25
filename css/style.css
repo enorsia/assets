@@ -2710,6 +2710,9 @@ dl.flag-dropdown dt span:nth-child(3) {
     margin: 5px 0px 7px 0px;
     font-size: 15px;
 }
+#add_photo_new #add_photo:hover{
+    text-decoration: underline !important;
+}
 .gallery_text h6{
     color: #fff;
     margin-bottom: 15px;
@@ -2760,6 +2763,9 @@ margin-right: 15px;
 }
 .modal_body_text{
 width: 45%;
+display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .modal_body_instagram{
     width: 100%;
@@ -2813,7 +2819,7 @@ width: 45%;
     font-size: 13px;
     color: #353535;
 }
-.gallerY_cart_btn button{
+.gallerY_cart_btn a{
     font-size: 12px;
     color: #fff;
     background: #000;
@@ -2822,8 +2828,9 @@ width: 45%;
     padding: 8px 15px;
     margin-top: 15px;
     transition: .3s;
+    display: inline-block;
 }
-.gallerY_cart_btn button:hover{
+.gallerY_cart_btn a:hover{
     background: #505050;
 }
 .gallery_view_part{

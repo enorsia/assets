@@ -386,6 +386,12 @@
     .custom-modal-width {
         max-width: 750px;
     }
+    #add_photo_new #add_photo{
+        font-size: 16px;
+        margin-bottom: 0px;
+        display: block;
+        transition: .3s;
+    }
     /******* End Boden *********/
 }
 
@@ -930,7 +936,7 @@
         right: 15px;
     }
     .gallery_view_part {
-        margin: 20px 0px 32px 0px;
+        margin: 20px 0px 10px 0px;
     }
     .gallery_view_part a {
         font-size: 13px;
@@ -940,6 +946,15 @@
     }
     .modal_body_img {
         height: 270px;
+    }
+    #add_photo_new #add_photo{
+        font-size: 14px;
+        margin-bottom: 25px;
+        display: block;
+        transition: .3s;
+    }
+    #add_photo_new #add_photo:hover{
+        text-decoration: underline !important;
     }
     .modal_body_instagram_text p {
         line-height: 25px;
