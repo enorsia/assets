@@ -620,8 +620,8 @@
     /* right side */
     .right-side-content {
         flex: 1 0 100% !important;
-        margin-top: 10px;
-        margin-bottom: 8px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     .btn-color {
@@ -698,6 +698,11 @@
     .accordion-drop-items {
         padding-left: 0px;
         padding-top: 0px;
+    }
+    .right-side-content {
+        flex: 1 0 100% !important;
+        margin-top: 15px;
+        margin-bottom: 0px;
     }
 
 }

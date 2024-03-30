@@ -54,12 +54,19 @@ top-nave bar
 
 /* ========= navbar ========*/
 /* ====== final updated css start ==== */
-
+#header_left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
 .large-img-fit {
     width: 390px;
     height: 585px;
 }
-
+#search_icon{
+    display: none;
+}
 .large-img-fit img {
     width: 100%;
     height: 100%;
@@ -157,9 +164,11 @@ footer #contact_title {
 .nav-subList {
     display: flex;
     align-items: center;
-    gap: 1.2rem !important;
-}
 
+}
+.nav-subList li{
+    margin: 0px 4px;
+}
 .all-shop:hover {
     text-decoration: underline;
 }
@@ -397,7 +406,7 @@ footer #contact_title {
 
 .nav-search {
     position: relative;
-    margin-left: 5.5rem;
+    margin-left: 30px;
     width: 300px;
 }
 
@@ -468,7 +477,7 @@ footer #contact_title {
 }
 
 .nav-checkout-btn {
-    padding: 5px 15px;
+    padding: 2px 10px;
     border: 1px solid #000000 !important;
     font-weight: 500;
     font-size: 14px;
@@ -494,6 +503,7 @@ footer #contact_title {
 .nav-cart-icon label i {
     cursor: pointer;
     font-size: 25px;
+    padding: 0px 5px;
 }
 
 .cart-count {
@@ -2328,7 +2338,7 @@ single product area
 
 /* new css for country select 27/11/2023*/
 .wrapper {
-    width: 60px;
+    width: 47px;
     margin: 3% auto;
 }
 
@@ -2364,6 +2374,7 @@ single product area
 }
 .flag-dropdown dt a span span:first-child {
     padding: 0;
+    margin-right: 0px !important;
 }
 .flag-dropdown dd {
     position: relative;
@@ -2385,9 +2396,9 @@ single product area
     position: relative;
     background: white;
     display: block;
-    padding-right: 20px;
+    padding-right: 10px;
     overflow: hidden;
-    width: 70px;
+    width: 50px;
     border-radius: 5px;
 }
 .flag-dropdown dd ul {
@@ -2476,13 +2487,6 @@ dl.flag-dropdown dt span:nth-child(3) {
     border-style: solid;
     border-width: 1px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.09);
-}
-
-@media only screen and (max-width: 767px) {
-    .wrapper {
-        width: 25px;
-        margin-bottom: 2px;
-    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -2832,6 +2836,9 @@ dl.flag-dropdown dt span:nth-child(3) {
 }
 .mixitup-control-active {
     text-decoration: underline !important;
+}
+#add_photo_new{
+    margin-top: 20px;
 }
 /********************************************************************** End Boden Part Start**************/
 /********* Category Part **********/

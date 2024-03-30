@@ -275,6 +275,7 @@
 
 /*******************************************************************************************************************************************************************************************/
 @media (max-width: 991px) {
+
     .slider-right-text {
         padding-left: 10px;
     }
@@ -408,7 +409,19 @@
         left: -4%;
         width: 100%;
     }
-
+    .wrapper {
+        width: 25px;
+        margin: 3% auto;
+    }
+    .flag-dropdown dt a {
+        position: relative;
+        background: white;
+        display: block;
+        padding-right: 1px;
+        overflow: hidden;
+        width: 55px;
+        border-radius: 5px;
+    }
     .extra-mergin {
         margin-top: 183px !important;
     }
@@ -504,6 +517,10 @@
     }
 
     /********* Boden Part **********/
+    #add_photo_new #add_photo {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
     .boden_top {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -559,12 +576,34 @@
         width: 100%;
         display: block;
     }
+    #search_icon{
+        display: inline-block;
+    }
+    #search_icon i{
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .mobile-search{
+        display: none;
+    }
+    .flag-dropdown dt a {
+        padding-right: 0px;
+        width: 100%;
+    }
+    .wrapper {
+        width: 25px;
+        margin-bottom: 2px;
+    }
+    .flag-dropdown dt a {
+        padding-right: 0px;
+        width: 100%;
+    }
     .item__filter {
         margin: -10px 0px 5px 0px;
     }
 
     .extra-mergin {
-        margin-top: 173px !important;
+        margin-top: 115px !important;
     }
     .nav-submenu-img .nav-img p a {
         height: auto;
@@ -1058,12 +1097,6 @@
     }
 }
 
-/*******************************************************************************************************************************************************************/
-@media (max-width: 359px) {
-    .extra-mergin {
-        margin-top: 197px !important;
-    }
-}
 
 /*******************************************************************************************************************************************************************/
 @media (max-width: 350px) {
@@ -1082,13 +1115,20 @@
 
 /*******************************************************************************************************************************************************************/
 @media (max-width: 333px) {
-    .extra-mergin {
-        margin-top: 230px !important;
-    }
+
 
     .category-img {
         overflow: hidden;
         height: 224px;
         width: 100%;
     }
+}
+
+/*******************************************************************************************************************************************************************/
+@media (max-width: 312px) {
+    .extra-mergin {
+        margin-top: 150px !important;
+    }
+
+
 }
