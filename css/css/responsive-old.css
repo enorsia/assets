@@ -153,19 +153,13 @@
     .left-side-product {
         width: 50%;
     }
-
-    .gallery_text {
-        padding: 0px 5px;
-    }
 }
 
 @media (max-width: 1199px) {
     .category-img {
         height: 275px;
     }
-    .custom-slider-image-container {
-        height: 450px;
-    }
+
     .category-img img {
         object-fit: cover;
         width: 100%;
@@ -238,14 +232,6 @@
         width: 100% !important;
         object-fit: fill;
     }
-
-    .gallery_items {
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 7px;
-    }
-    .gallery_section .enorsia-container {
-        padding-top: 10px !important;
-    }
 }
 
 /*******************************************************************************************************************************************************************************************/
@@ -278,12 +264,7 @@
     .slider-right-text {
         padding-left: 10px;
     }
-    .product__filter {
-        display: none !important;
-    }
-    .item__filter {
-        margin: 15px 0px;
-    }
+
     .collection-img-section h4 {
         font-size: 20px;
     }
@@ -291,9 +272,7 @@
     .category-img {
         height: 314px;
     }
-    #mt_for_phone{
-        margin-top: -45px;
-    }
+
     .category-img img {
         object-fit: cover;
         width: 100%;
@@ -377,29 +356,6 @@
         margin-bottom: 0px;
         margin-top: 5px;
     }
-    /******* Boden *********/
-    .boden_same_text_part {
-        width: 90%;
-        bottom: 20px;
-    }
-    .boden_same_text_part h6 {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .gallery_items {
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 7px;
-    }
-    .custom-modal-width {
-        max-width: 750px;
-    }
-    #add_photo_new #add_photo {
-        font-size: 16px;
-        margin-bottom: 0px;
-        display: block;
-        transition: 0.3s;
-    }
-    /******* End Boden *********/
 }
 
 /*******************************************************************************************************************************************************************************************/
@@ -502,50 +458,6 @@
     .single-products {
         flex-direction: column;
     }
-
-    /********* Boden Part **********/
-    .boden_top {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .boden_same_text_part {
-        bottom: 25px;
-    }
-    .boden_middle {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .boden_bottom {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .gallery_img .img_part {
-        overflow: hidden;
-        height: 295px;
-    }
-    .gallery_title h2 {
-        font-size: 28px;
-        margin-bottom: 7px;
-    }
-    .gallery_img .img_part iframe {
-        height: 295px !important;
-    }
-    .gallery_modal_top {
-        flex-direction: column;
-        align-items: center;
-    }
-    .modal_body_img {
-        width: 100%;
-        height: 375px;
-        margin-right: 0px;
-    }
-    .modal_body_text {
-        width: 100%;
-    }
-    .modal_body_instagram {
-        margin: 20px 0px 15px 0px;
-    }
-    .gallery_section .enorsia-container {
-        padding: 0px !important;
-    }
-    /********* End Boden Part **********/
 }
 
 /*******************************************************************************************************************************************************************************************/
@@ -559,10 +471,6 @@
         width: 100%;
         display: block;
     }
-    .item__filter {
-        margin: -10px 0px 5px 0px;
-    }
-
     .extra-mergin {
         margin-top: 173px !important;
     }
@@ -608,9 +516,7 @@
     #discount_banner {
         margin-top: -20px !important;
     }
-    #mobile_video {
-        height: 68vh;
-    }
+
     .sub-nav-container {
         left: -3% !important;
     }
@@ -889,7 +795,7 @@
     #choose_phn_view {
         margin-top: 20px !important;
     }
-    .details_color {
+    .details_color{
         font-size: 14px !important;
     }
     #details_youtube_icon {
@@ -900,136 +806,6 @@
     .single-product-details h6 {
         font-size: 14px !important;
     }
-    .rel-prod-slider {
-        width: 100%;
-    }
-    .rel-prod-section {
-        width: 312px;
-    }
-    .related-product {
-        width: 291px;
-    }
-    .related-product img {
-        width: 291px;
-        height: 418px;
-    }
-    .product-btn-next {
-        top: 40%;
-        right: -15px;
-        transform: translate(-50%, -50%);
-    }
-    .product-btn-prev {
-        top: 40%;
-        left: 20px;
-        transform: translate(-50%, -50%);
-    }
-    .slider_part {
-        height: 515px;
-        overflow: hidden;
-    }
-    .img-slide img {
-        width: 100% !important;
-        object-fit: cover !important;
-        height: 100%;
-    }
-    .img-slide {
-        height: auto;
-    }
-    .single-products-name {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .rel-prod-section .prev-item {
-        top: 39%;
-        left: 0px;
-    }
-    .rel-prod-section .next-item {
-        top: 39%;
-        right: 0px;
-    }
-    #mt_for_phone{
-        margin-top: -55px;
-    }
-    /***** Boden Part **********/
-    .small_hide {
-        display: none;
-    }
-
-    .boden_same_text_part a {
-        font-size: 14px;
-        padding: 18px 30px;
-        margin: 10px 7px 0px 7px;
-    }
-    .boden_same_text_part {
-        width: 95%;
-    }
-    .gallery_items {
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 7px;
-        max-height: 600px;
-        overflow: hidden;
-    }
-    .gallery_title h2 {
-        font-size: 20px;
-    }
-    .gallery_title p {
-        font-size: 15px;
-    }
-    .gallery_menu ul {
-        margin: 20px 0px 15px 0px;
-    }
-    .gallery_menu ul li {
-        margin: 0px 15px;
-        font-size: 15px;
-    }
-    .gallery_menu ul li::after {
-        height: 25px;
-        right: -17px;
-        top: -2px;
-    }
-    .gallery_text p {
-        display: none;
-    }
-    .gallery_text {
-        width: 100%;
-    }
-    .gallery_text h6 {
-        margin-bottom: 10px;
-        font-size: 15px;
-        margin-top: 10px;
-        display: block;
-        width: 100%;
-    }
-    .gallery_instagram {
-        bottom: 0px;
-        right: 15px;
-    }
-    .gallery_view_part {
-        margin: 20px 0px 10px 0px;
-    }
-    .gallery_view_part a {
-        font-size: 13px;
-    }
-    .gallery_section .enorsia-container {
-        padding: 0px !important;
-    }
-    .modal_body_img {
-        height: 270px;
-    }
-    #add_photo_new #add_photo {
-        font-size: 14px;
-        margin-bottom: 25px;
-        display: block;
-        transition: 0.3s;
-    }
-    #add_photo_new #add_photo:hover {
-        text-decoration: underline !important;
-    }
-    .modal_body_instagram_text p {
-        line-height: 25px;
-    }
-    /***** End Boden Part **********/
 }
 
 /*******************************************************************************************************************************************************************/
