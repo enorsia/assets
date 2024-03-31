@@ -691,4 +691,7 @@ body {
     .favourite-grid {
         grid-template-columns: 1fr;
     }
+    .product-main-header {
+        margin-top: 20px;
+    }
 }
