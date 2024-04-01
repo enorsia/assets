@@ -54,6 +54,7 @@ top-nave bar
 
 /* ========= navbar ========*/
 /* ====== final updated css start ==== */
+
 #header_left{
     display: flex;
     flex-direction: row;
@@ -509,7 +510,7 @@ footer #contact_title {
 .cart-count {
     position: absolute;
     top: 30%;
-    right: 32%;
+    right: 38%;
     cursor: pointer;
 }
 
