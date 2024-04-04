@@ -167,6 +167,7 @@
 }
 #product_new_cart{
     margin-bottom: 10px !important;
+    min-height: 500px;
 }
 #style_loader{
     display: grid;
@@ -609,6 +610,11 @@
 /* ===== gift card page end ===== */
 
 /* table device */
+@media only screen and (max-width: 1024px) {
+    #product_new_cart {
+        min-height: 425px;
+    }
+}
 @media only screen and (max-width: 991px) {
     .shopping-total-price-contianer {
         width: 100%;
@@ -719,6 +725,9 @@
     }
 }
 @media (max-width: 575px) {
+    #product_new_cart {
+        min-height: 360px;
+    }
     .product-title {
         font-size: 14px !important;
     }
