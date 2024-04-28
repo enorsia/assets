@@ -2371,9 +2371,17 @@ dl.flag-dropdown dt span:nth-child(2) {
 .gallery_img .img_part {
     width: 100%;
     overflow: hidden;
-    height: 400px
+    height: 400px;
+    position: relative;
 }
-
+.gallery_img .img_part i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 50px;
+}
 .gallery_img .img_part iframe {
     width: 100% !important;
     height: 400px !important
@@ -2381,23 +2389,19 @@ dl.flag-dropdown dt span:nth-child(2) {
 
 .gallery_img .gallery_cart {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    background: #cbc7bf;
+    bottom: 4px;
+    right: 52px;
     border-radius: 20px;
-    padding: 5px 10px;
-    border: 3px solid #ddd;
     overflow: hidden;
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 62px;
-    height: 40px;
-    line-height: 20px;
-    -webkit-transition: width .8s;
-    transition: width .8s
+    z-index: 99;
 }
-
+.gallery_img .gallery_cart i{
+    font-size: 25px;
+    color: #cbc7bf;
+}
 .gallery_img .gallery_cart p {
     font-size: 14px;
     margin-left: 5px;
@@ -2410,14 +2414,7 @@ dl.flag-dropdown dt span:nth-child(2) {
     margin: 0 10px 0 7px
 }
 
-.cart_span_text {
-    width: 150px;
-    font-size: 14px
-}
 
-.gallery_item:hover .gallery_img .gallery_cart {
-    width: 163px
-}
 
 .gallery_instagram {
     position: absolute;
@@ -2427,7 +2424,7 @@ dl.flag-dropdown dt span:nth-child(2) {
 
 .gallery_instagram i {
     color: #cbc7bf;
-    font-size: 25px
+    font-size: 22px
 }
 
 .gallery_text p {
@@ -2492,7 +2489,7 @@ dl.flag-dropdown dt span:nth-child(2) {
 
 .modal_body_img {
     width: 50%;
-    height: 540px;
+    min-height: 540px;
     margin-right: 15px
 }
 
@@ -3001,7 +2998,9 @@ dl.flag-dropdown dt span:nth-child(2) {
     height: 40px;
     color: #333;
 }
-
+.select_body #accordionFlushExample .collapsing{
+    transition: height 0s ease !important;
+}
 .select_body #accordionFlushExample .accordion-item button::after {
     width: 15px !important;
     height: 15px !important;
