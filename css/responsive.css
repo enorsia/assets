@@ -249,6 +249,8 @@
 }
 
 @media (max-width: 1024px) {
+
+
     .slider-container {
         margin: 0 0 10px;
     }
@@ -736,7 +738,7 @@
         width: 100%;
     }
     .item__filter {
-        margin: -10px 0 5px;
+        margin: 5px 0 5px;
     }
     .extra-mergin {
         margin-top: 125px !important;

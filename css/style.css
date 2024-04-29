@@ -121,7 +121,10 @@ a {
     justify-content: flex-start;
     align-items: center
 }
-
+.nav-menu>li:hover .sub-nav-container {
+    transition: .3s linear;
+    display: flex !important
+}
 .large-img-fit {
     width: 390px;
     height: 585px
@@ -676,7 +679,7 @@ footer #contact_title {
     background: #fff;
     padding: 10px;
     position: absolute;
-    top: 35px;
+    top: 32px;
     left: 0;
     width: 500px
 }
@@ -1340,10 +1343,7 @@ dl.flag-dropdown dt span:nth-child(3) {
     .right-side-product {
         width: 50%
     }
-    .nav-menu>li:hover .sub-nav-container {
-        transition: .3s linear;
-        display: flex !important
-    }
+
     .slider-btn-prev {
         left: -150px;
         padding: 0 20px 0 150px

@@ -2111,9 +2111,7 @@ single product area
 
 /* Media query for devices below Bootstrap lg breakpoint */
 @media (max-width: 991px) {
-    .extra-mergin {
-        margin-top: 200px !important; /* Adjust the margin value according to your needs */
-    }
+
 
     .slick-slide img {
         width: 100%;
