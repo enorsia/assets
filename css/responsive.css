@@ -1037,6 +1037,10 @@
         font-size: 22px;
         margin-left: 10px;
     }
+    .index_inf_header {
+        right: 10px;
+        top: 10px;
+    }
     .gallery_text,
     .rel-prod-slider {
         width: 100%;

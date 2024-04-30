@@ -2440,7 +2440,9 @@ dl.flag-dropdown dt span:nth-child(2) {
 .mixitup-control-active {
     text-decoration: underline !important
 }
-
+.gallery_modal .modal{
+    --bs-modal-border-radius: 0px !important;
+}
 .gallery_text span {
     color: #fff;
     margin-bottom: 10px;
@@ -2448,7 +2450,13 @@ dl.flag-dropdown dt span:nth-child(2) {
     font-weight: 600;
     display: inline-block
 }
-
+.index_inf_header{
+    border-bottom: 0px !important;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    z-index: 9;
+}
 .modal_body_instagram_text p,
 .modal_ins_name p,
 .modal_ins_name p a {
@@ -2519,15 +2527,29 @@ dl.flag-dropdown dt span:nth-child(2) {
     flex-direction: row;
     display: flex
 }
-
+.instagram_part{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.instagram_part img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
 .modal_body_instagram {
     justify-content: space-between;
     align-items: center;
     margin: 20px 0 30px
 }
-
+.modal_ins_name_icon img{
+    width: 30px;
+    height: 30px;
+}
 .modal_ins_name p a {
-    margin-bottom: 7px;
+    /* margin-bottom: 7px; */
     display: block;
     font-weight: 600
 }
