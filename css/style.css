@@ -17,7 +17,35 @@ ul {
     margin: 0;
     padding: 0
 }
+/************************************************************************** Header Top Scrolling Text ****************************************************/
 
+.scroll_right{
+    position: absolute;
+    right: 20px;
+}
+.scroll_right ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.scroll_right ul li a span{
+    color: #fff;
+}
+.scroll_right ul li:first-child{
+    margin-right: 20px;
+    position: relative;
+}
+.scroll_right ul li:first-child::after{
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 1px;
+    background: #fff;
+    right: -10px;
+    bottom: 3px;
+}
+/************************************************************************** End Header Top Scrolling Text ****************************************************/
 .footer-email-input:focus,
 .footer-sign-up {
     border: 1px solid #ff7913 !important
@@ -2065,10 +2093,7 @@ dl.flag-dropdown dt span:nth-child(3) {
     }
 }
 
-.wrapper {
-    width: 47px;
-    margin: 3% auto
-}
+
 
 .flag-dropdown dd,
 .flag-dropdown dt,
