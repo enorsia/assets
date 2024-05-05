@@ -681,6 +681,23 @@
 }
 
 @media (max-width: 575px) {
+
+    /************ Header **************/
+    #header_left {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    #toggoler_btn {
+        position: absolute;
+        left: 5px;
+    }
+    #search_icon {
+        display: inline-block;
+        position: absolute;
+        left: 50px;
+    }
+    /************ End Header **************/
     .boden_items img,
     .custom-slideshow-container,
     body {
@@ -713,9 +730,6 @@
         height: 260px;
         width: 100%;
         display: block;
-    }
-    #search_icon {
-        display: inline-block;
     }
     #search_icon i {
         font-size: 22px;
