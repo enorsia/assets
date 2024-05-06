@@ -505,7 +505,7 @@ footer #contact_title {
 
 .nav-search {
     margin-left: 30px;
-    width: 300px
+    width: 350px
 }
 
 .nav-search input[type=text] {
@@ -1180,7 +1180,7 @@ dl.flag-dropdown dt span:nth-child(3) {
 }
 
 #search-suggestion-container {
-    width: 300px;
+    width: 350px;
     position: absolute;
     top: 50px;
     left: 0;
@@ -1196,7 +1196,9 @@ dl.flag-dropdown dt span:nth-child(3) {
     border-bottom: 1px dotted #5555;
     cursor: pointer
 }
-
+#search-suggestion-container li p{
+font-size: 14px;
+}
 #search-suggestion-container li:hover,
 #search-suggestion-container-mbl li:hover {
     background-color: #5555
@@ -2473,7 +2475,8 @@ dl.flag-dropdown dt span:nth-child(2) {
 
 #add_photo_new #add_photo:hover,
 .mixitup-control-active {
-    text-decoration: underline !important
+    text-decoration: underline !important;
+    color: blue;
 }
 .gallery_modal .modal{
     --bs-modal-border-radius: 0px !important;

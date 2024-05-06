@@ -740,7 +740,16 @@
     .small_hide {
         display: none;
     }
-
+    #search-suggestion-container-mbl {
+        width: 100%;
+        left: 0px;
+    }
+    #search-suggestion-container-mbl li p{
+        font-size: 14px;
+    }
+    .mobile-search .mobile-search-container form .mobile-search-wrapper input {
+        padding-left: 15px;
+    }
     .flag-dropdown dt a {
         padding-right: 0;
         width: 100%;
@@ -876,7 +885,8 @@
         font-size: 17px;
     }
     .cart-container {
-        left: -260px;
+        right: 0px !important;
+        left: auto;
     }
     .logo-nav {
         padding: 0 15px;
