@@ -2983,14 +2983,36 @@ dl.flag-dropdown dt span:nth-child(2) {
     position: absolute;
     right: 0;
     z-index: 9;
+    display: flex;
+    align-items: center;
 }
-
+.select_sort p{
+    font-size: 14px;
+    margin-right: 0px;
+}
+.select_sort select{
+    border: none;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+.select_sort select option{
+    cursor: pointer;
+}
 .select_body #accordionFlushExample{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+}
+.filter_clear button{
+    border: none;
+    font-size: 14px;
+    background: #fff;
+    color: #333;
+    text-decoration: underline;
+    margin-left: 10px;
 }
 .select_body #accordionFlushExample .accordion-item{
     /* border: 1px solid #ccc; */
@@ -3407,9 +3429,17 @@ width: 50%;
     height: 25px;
     padding: 1px;
 }
-.prev_color ul li img:hover{
-    border: 1px solid #000;
+.prev_color_item {
+    /* CSS properties for the list item */
+    border: 1px solid transparent; /* Initial border style */
+    /* You can add any other styles here */
 }
+
+.prev_color_item.active {
+    background-color: lightgray; /* Example background color */
+    border-color: black; /* Example border color */
+}
+
 .prev_size{
     margin: 15px 0px 10px 0px;
 }

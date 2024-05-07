@@ -241,7 +241,7 @@
         min-height: 345px;
     }
     .select_sort {
-        margin-top: 0px;
+        margin-top: 3px;
     }
     .dropdown-el {
         margin-right: 0px;
@@ -289,6 +289,9 @@
     }
     .all_product_top {
         width: 60%;
+    }
+    .select_body #accordionFlushExample .accordion-item button {
+        padding-left: 0px;
     }
 }
 
@@ -420,13 +423,16 @@
         justify-content: flex-start;
         align-items: center;
     }
+    .select_body #accordionFlushExample .accordion-item button {
+        padding-left: 0px;
+    }
     .filter_icon i {
         border: 1px solid #cbc7bf;
         font-size: 18px;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100px;
+        width: 80px;
         height: 40px;
     }
     .filter_icon i span {
@@ -1229,6 +1235,12 @@
         label {
         font-size: 13px;
     }
+    .select_sort select {
+        font-size: 13px;
+    }
+    .select_sort p {
+        font-size: 13px;
+    }
     .price_body .price_id {
         font-size: 13px;
     }
@@ -1237,6 +1249,11 @@
     }
     .price_div .price_input label {
         font-size: 13px;
+    }
+    .filter_clear {
+        position: absolute;
+        top: -30px;
+        left: 90px;
     }
     .shop_item_top .item_name p {
         font-size: 13px;
