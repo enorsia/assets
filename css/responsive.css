@@ -27,6 +27,7 @@
     #large_video {
         min-height: 520px;
     }
+
 }
 
 @media (min-width: 1900px) {
@@ -44,7 +45,7 @@
 
     /****** New Shop******/
 }
-@media (min-width: 1921px) {
+@media (min-width: 1921px){
     .shop_items {
         max-width: 100%;
     }
@@ -248,6 +249,8 @@
 }
 
 @media (max-width: 1024px) {
+
+
     .slider-container {
         margin: 0 0 10px;
     }
@@ -293,20 +296,6 @@
 }
 
 @media (max-width: 991px) {
-    /************************************************************************** Search ****************************************************/
-    .searchForm {
-        max-width: 390px;
-    }
-    .advertisement_active::after {
-        width: 80px;
-    }
-    .category_form .main_list {
-        margin: 15px auto 10px auto;
-    }
-    .show_byCategory {
-        margin: 0px 15px 15px 30px;
-    }
-    /************************************************************************** End Search ****************************************************/
     .slider-right-text {
         padding-left: 10px;
     }
@@ -528,41 +517,6 @@
 }
 
 @media (max-width: 767px) {
-    /************************************************************************** Search ****************************************************/
-    .searchForm {
-        display: none;
-        top: 0px;
-        max-width: 100%;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 30px 50px;
-        border-radius: 0px;
-    }
-    .form_input_part {
-        border: 1px solid #ddd;
-        margin-bottom: -1px;
-    }
- .overlay{
-    display: none !important;
- }
-    .searchForm .search_body {
-        width: 100% !important;
-    }
-    #search_icon {
-        display: inline-block;
-        cursor: pointer;
-    }
-    .search_close_btn {
-        display: inline-block;
-        margin-top: 7px;
-    }
-    .search_close_btn span{
-        text-decoration: underline;
-        font-size: 14px;
-        cursor: pointer;
-    }
-    /************************************************************************** Search ****************************************************/
-
     .nav-menu > li > ul {
         left: -4%;
         width: 100%;
@@ -716,9 +670,6 @@
     .prev_body #carouselExampleControls {
         width: 100%;
     }
-    .single-product-form{
-        width: 100%;
-    }
     .prev_body .prev_text {
         width: 100%;
         padding: 10px;
@@ -736,6 +687,7 @@
 }
 
 @media (max-width: 575px) {
+
     /************ Header **************/
     #header_left {
         position: relative;
@@ -747,21 +699,9 @@
         left: 5px;
     }
     #search_icon {
-        left: 55px;
+        display: inline-block;
         position: absolute;
-    }
-    .searchForm {
-        padding: 37px 20px;
-    }
-    .search_close_btn {
-        margin-left: 10px;
-    }
-    .category_form .main_list {
-        width: 100%;
-        margin: 15px auto 20px auto;
-    }
-    .advertisement_active::after {
-        width: 65px;
+        left: 50px;
     }
     /************ End Header **************/
     .boden_items img,
@@ -810,7 +750,7 @@
         width: 100%;
         left: 0px;
     }
-    #search-suggestion-container-mbl li p {
+    #search-suggestion-container-mbl li p{
         font-size: 14px;
     }
     .mobile-search .mobile-search-container form .mobile-search-wrapper input {
@@ -1133,7 +1073,7 @@
         /* border: 1px solid #000; */
         border-radius: 0px;
     }
-    .index_inf_header button {
+    .index_inf_header button{
         margin: 0px !important;
     }
     .gallery_text,
@@ -1401,7 +1341,7 @@
     }
     .shop_item_top .item_name,
     .shop_item_top .item_price,
-    .shop_item_bottom {
+  .shop_item_bottom {
         margin-left: 8px !important;
     }
     .shop_items .shop_item {
@@ -1437,7 +1377,7 @@
     .shop_item_top .img_part {
         min-height: 190px;
     }
-    .shop_item_top .item_price {
+    .shop_item_top .item_price{
         flex-wrap: wrap;
     }
     .shop_item_top .item_price .shop_discount {
