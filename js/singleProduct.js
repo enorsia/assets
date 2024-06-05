@@ -8,17 +8,11 @@ let largeImg = document.getElementsByClassName("img-slide");
 let slideIndex = 1;
 showSlides(slideIndex);
 
-
-document.addEventListener('swiped', function(e) {
-    console.log(e.target); // the element that was swiped
-    console.log(e.detail.dir); // swiped direction
-});
 // Next/previous controls
 function plusSlides(n) {
     showSlides((slideIndex += n));
     plusZoomSlides(n);
     handleChangeValue(slideIndex);
-
 }
 // Thumbnail image controls
 function currentSlide(n) {
